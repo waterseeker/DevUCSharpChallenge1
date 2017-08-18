@@ -21,7 +21,7 @@ namespace DevUCSharpChallenge1
 
         protected void FortuneButton_Click(object sender, EventArgs e)
         {
-            UserMessage = 
+            UserMessage.Text = "At " + UserAge.Text + " years old, I would have expected you to have more than " + UserMoney.Text + " in your pocket!";
         }
     }
 }
